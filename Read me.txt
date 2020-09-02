@@ -1,0 +1,26 @@
+Building single page responsive webpage for showcasing my portfolio
+web page has 4 sections
+    header contains 2 objects
+        logo
+        navigation
+            using section links
+
+    main has 2 sections
+        section
+            about-me part
+                Hey, visitor how are you! let me introduce my self, I,m a web developer
+                my favouriote frameworks
+                what I love to do
+                my favorite websites
+
+            my-portfolio
+                use grid
+            contact and hire me
+                include social links
+        aside
+            skills bar
+            technology
+            achievements
+            follow me
+
+    footer contains only external links
