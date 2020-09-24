@@ -60,8 +60,8 @@
   }
 
  .card-holder{
-     width:80%
-     height:50%;
+     width:80%;
+     height: 50%;
      background-color:#222;
  }
 
@@ -71,7 +71,7 @@ color:white;
 }
 
  .skill-card{
-     width:80%
+     width:80%;
      height:20px;
      background-color:#ccc;
  }
