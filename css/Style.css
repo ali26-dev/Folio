@@ -2,7 +2,7 @@
     width:100%;
     height:650px;
     margin:0px;
-
+    font-family: sans-serif;
     }
 
  header{
@@ -81,5 +81,12 @@ color:white;
      width:100%;
      height:10%;
      background-color:#e1e6e9;
-     position:fixed; /*its temporary*/
+     display: flex;
+     justify-content: center;
+     align-items: center;
  }
+ .f-text{
+font: 800;
+font: 1.5em sans-serif;
+color: #3c3c3c;
+}
