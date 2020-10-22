@@ -1,6 +1,6 @@
  body{
     width:100%;
-    height:650px;
+    height:100% ;
     margin:0px;
     font-family: DIN Round Pro, sans-serif  ;
     }
@@ -12,6 +12,7 @@
      display:flex;
      justify-content:space-between;
      align-items:center;
+     position: fixed;
  }
  nav{
      width:60%;
@@ -44,7 +45,7 @@
 
 
  section{
-     width:600px;
+     width:579px;
      height:100%;
      background-color:#292929;
   }
@@ -52,41 +53,20 @@
 
   aside{
      width: 428px;
-     height:100%;
-     background-color:#202020;
-     display:flex;
-     justify-content:center;
-     align-items:center;
+     height:1000px;
+     background-color:#202;
+     margin-top: 68px;
+    
   }
 
 
-
- footer{
-     width:100%;
-     height:10%;
-     background-color:#e1e6e9;
-     display: flex;
-     justify-content: center;
-     align-items: center;
- }
- .f-text{
-font: 800;
-font: 1.5em sans-serif;
-color: #3c3c3c;
-}
-
-
-
+/*main card style implement to all cards*/
 #main-card{
     width:328px;
     height:377px;
-    padding-left: 20px;
+    padding: 20px 20px 20px 45px;
     border-radius:14px;
-    display:flex;
-    flex-direction:column;
-    
-    
-  }
+     }
   
   .title{
     background-color:#555;
@@ -99,7 +79,7 @@ color: #3c3c3c;
     border-top-right-radius:14px;
   }
   .card{
-    width:300px;
+    width:100%;
     height:80%;
     overflow-y:scroll;
     border-bottom-left-radius:14px;
@@ -119,7 +99,7 @@ color: #3c3c3c;
 
     font-size:22px;
     display:flex;
-   
+
   }
   ._no{
     width:20%;
@@ -141,7 +121,7 @@ color: #3c3c3c;
     align-items:center;
   }
 
-
+/*second card*/
   .card-2{
     width:328px;
     height:377px;
@@ -162,6 +142,22 @@ color: #3c3c3c;
     text-align: center;
     background-color:#ccc;
     color:#222; }
-    
+  /*second card ends here*/
   
-  
+
+ footer{
+    width:1007px;
+    height:68px;
+    background-color:#e1e6e9;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}   
+.f-text{
+font: 800;
+font: 1.5em sans-serif;
+color: #3c3c3c;
+}
+
