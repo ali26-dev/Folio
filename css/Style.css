@@ -44,37 +44,21 @@
 
 
  section{
-     width:65%;
+     width:600px;
      height:100%;
-     background-color:#c3c3c3;
+     background-color:#292929;
   }
 
 
   aside{
-     width:35%;
+     width: 428px;
      height:100%;
-     background-color:#fff;
+     background-color:#202020;
      display:flex;
      justify-content:center;
      align-items:center;
   }
 
- .card-holder{
-     width:80%;
-     height: 50%;
-     background-color:#222;
- }
-
-.card-title{
-font-size:48px;
-color:white;
-}
-
- .skill-card{
-     width:80%;
-     height:20px;
-     background-color:#ccc;
- }
 
 
  footer{
@@ -96,9 +80,11 @@ color: #3c3c3c;
 #main-card{
     width:328px;
     height:377px;
+    padding-left: 20px;
     border-radius:14px;
     display:flex;
     flex-direction:column;
+    
     
   }
   
@@ -113,7 +99,7 @@ color: #3c3c3c;
     border-top-right-radius:14px;
   }
   .card{
-    width:100%;
+    width:300px;
     height:80%;
     overflow-y:scroll;
     border-bottom-left-radius:14px;
@@ -154,3 +140,28 @@ color: #3c3c3c;
     display:flex;
     align-items:center;
   }
+
+
+  .card-2{
+    width:328px;
+    height:377px;
+    padding:5px 0px 5px 0px;
+    overflow-y:scroll;
+    overflow-x:hidden;
+    border-bottom-left-radius:14px;
+    background-color:#ccc;
+    border-bottom-right-radius:14px;
+      display:grid;
+     grid-gap: 5px;
+     grid-template-columns: 32% 32% 32%;
+  }
+  .item{
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    background-color:#ccc;
+    color:#222; }
+    
+  
+  
