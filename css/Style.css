@@ -46,11 +46,11 @@
 
  section{
      width:579px;
-     height:1000px;
+     height:2000px;
      margin-top: 68px;
     display: flex;
     flex-direction: column; 
-    
+    background-color: brown;
   }
 
     .same-box{
@@ -67,16 +67,27 @@
       line-height: 30px;
       word-spacing: 5px;
       text-align: justify;
+      height: 25%;
     }
     .portfolio{
       background-color: azure;
+      height: 25%;
+    }
+    .testimonial{
+      background-color: chocolate;
+      height: 25%;
     }
 
+    .contact{
+      background-color: chartreuse;
+  
+      height: 25%;
+    }
 
   aside{
      width: 428px;
      height:1000px;
-     background-color:#fff;
+     background-color:#f3f;
      margin-top: 68px;
     
   }
@@ -159,11 +170,29 @@
   }
   .item{
     border: 1px solid rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 20px 15px 0px 5px;
     font-size: 20px;
     text-align: center;
     background-color:#ccc;
     color:#222; }
+
+    .img-html{
+      width:100px;
+      overflow: hidden; 
+    }
+    
+    .img-css{
+      width:70px;
+      overflow: hidden;
+      margin-left: 10px; 
+    }
+    
+    .img-js{
+      width:85px;
+      padding-right: 20px;
+      overflow: hidden;
+      margin-top: 15px; 
+    }
   /*second card ends here*/
   
 
