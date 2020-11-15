@@ -1,0 +1,177 @@
+
+  .bcard {
+    width: 425px;
+    margin: 0 auto;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    margin-top: 5em;
+    margin-bottom: 3em;
+  }
+  .bcard .bcardContent {
+    position: relative;
+    padding: 5%;
+    padding-top: 15%;
+    margin-top: -10%;
+    padding-bottom: 8%;
+    overflow: hidden;
+  }
+  .bcard .bcardContent .titleSocial {
+    opacity: 0;
+    z-index: 1;
+    position: absolute;
+    top: 30%;
+    color: white;
+    width: 70%;
+    right: 0;
+    left: 0;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 0.5em;
+    -webkit-transition: z-index 0s 0.3s, opacity 0 0.3s;
+    -moz-transition: z-index 0s 0.3s, opacity 0 0.3s;
+    -ms-transition: z-index 0s 0.3s, opacity 0 0.3s;
+    -o-transition: z-index 0s 0.3s, opacity 0 0.3s;
+    transition: z-index 0s 0.3s, opacity 0 0.3s;
+  }
+  .bcard .bcardContent .titleSocial.is-active {
+    opacity: 1;
+    z-index: 4;
+  }
+  .bcard .bcardContent .menuSocial {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    width: 75%;
+    left: 0%;
+    top: 60%;
+    z-index: 1;
+    right: 0;
+    margin: 0 auto;
+    -webkit-transition: z-index 0s 0.3s;
+    -moz-transition: z-index 0s 0.3s;
+    -ms-transition: z-index 0s 0.3s;
+    -o-transition: z-index 0s 0.3s;
+    transition: z-index 0s 0.3s;
+  }
+  .bcard .bcardContent .menuSocial .menuSocialItem {
+    display: inline-block;
+    font-size: 30px;
+    width: 25%;
+    text-align: center;
+    opacity: 0;
+    z-index: 1;
+    color: white;
+    -webkit-transition: opacity 0.25s 0.3s;
+    -moz-transition: opacity 0.25s 0.3s;
+    -ms-transition: opacity 0.25s 0.3s;
+    -o-transition: opacity 0.25s 0.3s;
+    transition: opacity 0.25s 0.3s;
+  }
+  .bcard .bcardContent .menuSocial .menuSocialItem .menuSocialItemLink {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  }
+  .bcard .bcardContent .menuSocial .menuSocialItem.is-active {
+    opacity: 1;
+  }
+  .bcard .bcardContent .menuSocial.is-active {
+    z-index: 4;
+  }
+  .bcard .bcardContent .bcardContentButton {
+    cursor: pointer;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    background-color: #673AB7;
+    position: absolute;
+    right: 4%;
+    top: 5px;
+    z-index: 3;
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+  }
+  .bcard .bcardContent .bcardContentButton i {
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    -ms-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+  }
+  .bcard .bcardContent .bcardContentButton i.is-active {
+    display: none;
+  }
+  .bcard .bcardContent .bcardContentButton.is-active {
+    right: 15%;
+    top: 40px;
+    -webkit-animation: ejemplo 0.5s 0.2s forwards;
+    -moz-animation: ejemplo 0.5s 0.2s forwards;
+    -o-animation: ejemplo 0.5s 0.2s forwards;
+    -ms-animation: ejemplo 0.5s 0.2s forwards;
+    animation: ejemplo 0.5s 0.2s forwards;
+  }
+  .bcard .bcardContent .bcardContentName {
+    color: #673AB7;
+    font-size: 25px;
+  }
+  .bcard .bcardContent .bcardContentJob {
+    color: #9575CD;
+    font-size: 15px;
+  }
+  .bcard .bcardContent p {
+    margin: 0;
+    z-index: 2;
+  }
+  .bcard .bcardContent .bcardContentButton:focus {
+    outline: none;
+  }
+  .bcard .bcard_image {
+    width: 100%;
+    position: relative;
+    margin-bottom: -1%;
+    z-index: 2;
+    -webkit-transition: z-index 0s 0.2s;
+    -moz-transition: z-index 0s 0.2s;
+    -ms-transition: z-index 0s 0.2s;
+    -o-transition: z-index 0s 0.2s;
+    transition: z-index 0s 0.2s;
+  }
+  .bcard .bcard_image i {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+  }
+  .bcard .bcard_image img {
+    width: 100%;
+  }
+  .bcard .bcard_image.is-active {
+    z-index: 4;
+  }
+  @-webkit-keyframes ejemplo {
+    100% {
+      -webkit-transform: scale(12);
+      -moz-transform: scale(12);
+      -ms-transform: scale(12);
+      -o-transform: scale(12);
+      transform: scale(12);
+    }
+  }
+  @keyframes ejemplo {
+    100% {
+      -webkit-transform: scale(12);
+      -moz-transform: scale(12);
+      -ms-transform: scale(12);
+      -o-transform: scale(12);
+      transform: scale(12);
+    }
+  }
+  

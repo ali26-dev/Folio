@@ -13,6 +13,7 @@
      justify-content:space-between;
      align-items:center;
      position: fixed;
+     z-index: 1;
  }
  nav{
      width:60%;
@@ -72,10 +73,14 @@
     .portfolio{
       background-color: azure;
       height: 25%;
-      overflow: hidden;
+
     }
     .testimonial{
       background-color: chocolate;
+      height: 25%;
+    }
+    .blogs{
+      background-color: cyan;
       height: 25%;
     }
 
@@ -157,7 +162,7 @@
 
 /*second card*/
   .card-2{
-    width:328px;
+    width:100%;
     height:377px;
     padding:5px 0px 5px 0px;
     overflow-y:scroll;
@@ -178,14 +183,15 @@
     color:#222; }
 
     .img-html{
-      width:100px;
+      width:90px;
       overflow: hidden; 
+      
     }
     
     .img-css{
-      width:70px;
+      width:60px;
       overflow: hidden;
-      margin-left: 10px; 
+      margin-left: 3px; 
     }
     
     .img-js{
